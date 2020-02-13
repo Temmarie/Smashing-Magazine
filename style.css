@@ -1,0 +1,63 @@
+main {
+  width: 100%;
+}
+
+.latest-articles-header {
+  background-color: white;
+  color: black;
+  font-size: 1.3rem;
+  position: absolute;
+  margin-left: 510px;
+  text-align: center;
+}
+
+.latest-articles-info p {
+  font-family: Mija;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 150px;
+}
+
+.latest-articles-info h1 {
+  font-family: Mija;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 43px;
+  padding: 36px;
+  color: rgb(255, 255, 255);
+}
+
+.latest-articles-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2px;
+  height: 40px;
+}
+
+.latest-articles {
+  background-color: #5C5C5C;
+  display: flex;
+  justify-content: left;
+  height: 500px;
+}
+
+.latest-articles:nth-child(1) {
+  background: #666666;
+}
+
+.latest-articles:nth-child(2) {
+  background: #5C5C5C;
+
+}
+
+.latest-articles:nth-child(3) {
+  background: grey;
+}
+
+.latest-articles:nth-child(4) {
+  background: #666666;
+}
