@@ -15,10 +15,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   color: white;
-}
-
-.logo {
-  background-color: #575757;
+  border: 2px solid white;
 }
 
 .logo h1 {
@@ -32,11 +29,21 @@ nav .nav-links {
   color: white;
 }
 
-.btn {
+nav hr {
+  border-left: 1px solid white;
+  height: 160px;
+  margin-top: 1px;
+}
+
+.search-btn .btn {
   border: #fff 3px solid;
   border-radius: 10px;
-  width: 5%;
+  width: 90%;
+  height: 95px;
   background: rgb(87, 87, 87);
+  margin-top: 7px;
+  margin-left: 4px;
+  margin-right: 60px;
 }
 
 .btn span {
