@@ -6,37 +6,37 @@
 header {
   background-color: #666666;
   padding: 10px;
-    height: 160px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-nav {
-  display:flex;
-  justify-content: space-evenly;
-  color:white;
+  height: 160px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
 
 .logo {
   background-color: #575757;
 }
 
 .logo h1 {
-font-size: 2rem;
+  font-size: 2rem;
 }
 
 nav .nav-links {
   text-decoration: none;
   font-family: Mija;
   font-size: inherit;
-  color:white;
+  color: white;
 }
 
 .btn {
   border: #fff 3px solid;
-    border-radius: 10px;
-    width:5%;
-    background: rgb(87, 87, 87);
+  border-radius: 10px;
+  width: 5%;
+  background: rgb(87, 87, 87);
 }
 .btn p {
   color: white;
@@ -48,22 +48,22 @@ main {
 }
 
 .latest-articles-header {
-   background-color:white;
+  background-color: white;
   color: black;
   font-size: 1.3rem;
   position: absolute;
-  margin-left:510px;
-    text-align: center;
+  margin-left: 510px;
+  text-align: center;
 }
 
-.latest-articles-info p{
+.latest-articles-info p {
   font-family: Mija;
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
   color: rgb(255, 255, 255);
-text-align: center;
-margin-top:150px;
+  text-align: center;
+  margin-top: 150px;
 }
 
 .latest-articles-info h1 {
@@ -71,15 +71,15 @@ margin-top:150px;
   font-size: 35px;
   font-weight: 700;
   line-height: 43px;
-  padding:36px;
+  padding: 36px;
   color: rgb(255, 255, 255);
 }
 
 .latest-articles-container {
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows:repeat(2, 1fr) ;
- grid-gap:2px;
+  grid-template-rows: repeat(2, 1fr) ;
+  grid-gap: 2px;
   height: 40px;
 }
 
@@ -96,48 +96,47 @@ margin-top:150px;
 
 .latest-articles:nth-child(2) {
   background: #5C5C5C;
-  
 }
 
 .latest-articles:nth-child(3) {
-  background:  grey;
+  background: grey;
 }
 
 .latest-articles:nth-child(4) {
   background: #666666;
 }
 
-section{
+section {
   width: 100%;
-    display: flex;
-    background: rgb(207, 204, 204);
-    margin-bottom: 73%;
-justify-content: space-evenly;
-flex:30%;
-height: 492px
+  display: flex;
+  background: rgb(207, 204, 204);
+  margin-bottom: 73%;
+  justify-content: space-evenly;
+  flex: 30%;
+  height: 492px;
 }
 
 .latest-articles-container-2 hr {
   height: 492px;
   padding: 0;
   border: 1px solid white;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .article2 {
-  width:27%
+  width: 27%;
 }
 .article-header time {
-  font-size:12px;
+  font-size: 12px;
   color: black;
 }
 
 .article-header span a {
-  color:black
+  color: black;
 }
 
 .article-content {
-  font-size:20px;
+  font-size: 20px;
   line-height: 1.4;
 }
 
@@ -145,14 +144,14 @@ height: 492px
   margin-top: -73%;
   background: rgb(75, 71, 71);
   height: 424px;
-  width:100%;
-  border: 2px solid white
+  width: 100%;
+  border: 2px solid white;
 }
 
 .empty-space h1 {
-font-size: 40px;
-font-weight:700;
-line-height: 2.5;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 2.5;
 
 }
 
@@ -162,32 +161,32 @@ line-height: 2.5;
 }
 
 .empty-space article {
-  width:27%;
+  width: 27%;
 }
 .empty-space hr {
   height: 420px;
   padding: 0;
   border: 1px solid white;
-  margin-top: 0px;
+  margin-top: 0;
 }
 .latest-articles-container-3{
   width: 100%;
-    display: flex;
-    background: rgb(207, 204, 204);
-    margin-top: -73%;
-justify-content: space-evenly;
-flex:30%;
-height:492px;
+  display: flex;
+  background: rgb(207, 204, 204);
+  margin-top: -73%;
+  justify-content: space-evenly;
+  flex: 30%;
+  height: 492px;
 }
 
 .latest-articles-container-3 hr {
   height: 492px;
   padding: 0;
   border: 1px solid white;
-  margin-top: 0px;
+  margin-top: 0;
 }
 .article3 {
-  width:27%
+  width: 27%;
 }
 
 .explore-features {
@@ -214,7 +213,7 @@ height:492px;
   height: 127px;
   text-align: center;
   padding: 32px;
-  border-bottom: 2px solid white
+  border-bottom: 2px solid white;
 }
 
 .handbook {
@@ -234,7 +233,6 @@ height:492px;
 .handbook p {
   font-size: 21px;
 }
-
 
 .person {
   margin-top: -23px;
