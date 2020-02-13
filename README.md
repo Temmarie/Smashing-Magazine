@@ -1,6 +1,9 @@
 # Smashing-Magazine
 
-> Smashing Magazine Heatmap
+ Design Teardown-Smashing Magazine Heatmap:
+
+ This project consist of building a heatmap of Smashing Magazine using only responsive Html and CSS.
+
 
 ![screenshot](screenshoot.png)
 
@@ -8,12 +11,12 @@ Heatmap of the [Smashing Magazine](https://www.smashingmagazine.com/) website.
 
 ## Built With
 
-- Html,
-- CSS
+- Html5,
+- CSS3
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/Temmarie/Smashing-Magazine/feature/index.html)
 
 
 ## Authors
@@ -21,12 +24,17 @@ Heatmap of the [Smashing Magazine](https://www.smashingmagazine.com/) website.
 👤 **Author1**
 
 - Github: [@nellencr](https://github.com/nellencr)
+- Twitter: [Nella](https://twitter.com/Nella75794271)
 - Linkedin: [Nela Komane](https://www.linkedin.com/in/nela-komane-8866b9192/)
 
 👤 **Author2**
 
-- Github: 
-- Linkedin: 
+- Github: [@Temmarie](https://github.com/Temmarie)
+- Twitter: [@TemmarieW](https://twitter.com/TemmarieW)
+- Linkedin: [Grace Tife Ekunola](https://www.linkedin.com/in/ekunola-grace-b02b1b194/)
+
+
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome! Start by:
