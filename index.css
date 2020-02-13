@@ -42,8 +42,8 @@ nav hr {
   height: 95px;
   background: rgb(87, 87, 87);
   margin-top: 7px;
-  margin-left: 4px;
-  margin-right: 60px;
+  padding: 44px;
+  padding-top: 32px;
 }
 
 .btn span {
