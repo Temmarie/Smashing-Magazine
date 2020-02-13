@@ -117,6 +117,11 @@ main {
   margin-top: 0;
 }
 
+footer ul a {
+  text-decoration: none;
+  color: white;
+}
+
 .latest-articles-container-2 a {
   color: black;
 }
@@ -282,6 +287,14 @@ main {
   margin-top: 0;
 }
 
+footer ul li {
+  display: inline;
+  font-size: 20px;
+  list-style: circle;
+  padding: 5px;
+  line-height: 3;
+}
+
 .list-section ul li {
   line-height: 1.6;
   font-size: 20px;
@@ -325,16 +338,4 @@ footer {
 footer h3 {
   color: white;
   text-align: center;
-}
-
-footer ul li {
-  display: inline;
-  font-size: 20px;
-  list-style: circle;
-  padding: 5px;
-}
-
-footer ul a {
-  text-decoration: none;
-  color: white;
 }
