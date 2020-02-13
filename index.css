@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  font-family: Mija;
+}
+
+header {
+  background-color: #666666;
+  padding: 10px;
+    height: 160px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+nav {
+  display:flex;
+  justify-content: space-evenly;
+  color:white;
+}
+
+
+.logo {
+  background-color: #575757;
+}
+
+.logo h1 {
+font-size: 2rem;
+}
+
+nav .nav-links {
+  text-decoration: none;
+  font-family: Mija;
+  font-size: inherit;
+  color:white;
+}
+
+.btn {
+  border: #fff 3px solid;
+    border-radius: 10px;
+    width:5%;
+    background: rgb(87, 87, 87);
+}
+.btn p {
+  color: white;
+  font-size: 1rem;
+}
