@@ -16,7 +16,6 @@ nav {
   color:white;
 }
 
-
 .logo {
   background-color: #575757;
 }
@@ -43,36 +42,9 @@ nav .nav-links {
   font-size: 1rem;
 }
 
+
 main {
   width: 100%;
-}
-
-.latest-articles-header {
-   background-color:white;
-  color: black;
-  font-size: 1.3rem;
-  position: absolute;
-  margin-left:510px;
-    text-align: center;
-}
-
-.latest-articles-info p{
-  font-family: Mija;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 28px;
-  color: rgb(255, 255, 255);
-text-align: center;
-margin-top:150px;
-}
-
-.latest-articles-info h1 {
-  font-family: Mija;
-  font-size: 35px;
-  font-weight: 700;
-  line-height: 43px;
-  padding:36px;
-  color: rgb(255, 255, 255);
 }
 
 .latest-articles-container {
@@ -80,7 +52,28 @@ margin-top:150px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows:repeat(2, 1fr) ;
  grid-gap:2px;
-  height: 40px;
+ 
+}
+
+.latest-articles-header {
+  background-color:white;
+  color: black;
+  font-size: 1.3rem;
+  position: absolute;
+  margin-left:510px;
+    text-align: center;
+}
+
+.latest-articles-info h1 {
+  font-family: Mija;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 43px;
+  color: rgb(255, 255, 255);
+}
+
+.latest-articles-info p{
+  color: white;
 }
 
 .latest-articles {
@@ -88,6 +81,8 @@ margin-top:150px;
   display: flex;
   justify-content: left;
   height: 500px;
+  align-items: center;
+padding:120px;
 }
 
 .latest-articles:nth-child(1) {
@@ -107,53 +102,51 @@ margin-top:150px;
   background: #666666;
 }
 
-section{
-  width: 100%;
-    display: flex;
-    background: rgb(207, 204, 204);
-    margin-bottom: 73%;
-justify-content: space-evenly;
-flex:30%;
-height: 492px
+.latest-articles-container-2 {
+  display:flex;
+  justify-content: space-evenly;
+  border: 1px solid white;
+  background-color: #dbd2d2;
+  height: 494px;
+  width:100%;
 }
 
 .latest-articles-container-2 hr {
-  height: 492px;
+  height: 494px;
   padding: 0;
   border: 1px solid white;
   margin-top: 0px;
 }
 
-.article2 {
-  width:27%
+.latest-articles-container-2 a {
+  color:black;
 }
-.article-header time {
+ .article-header time {
   font-size:12px;
   color: black;
 }
 
-.article-header span a {
-  color:black
-}
 
-.article-content {
+ .article2 {
+  width:27%
+}
+ .article-content {
   font-size:20px;
   line-height: 1.4;
 }
 
 .empty-space {
-  margin-top: -73%;
   background: rgb(75, 71, 71);
-  height: 424px;
   width:100%;
-  border: 2px solid white
+  border: 2px solid white;
+  display: flex;
+  height: 429px;
 }
 
-.empty-space h1 {
-font-size: 40px;
+ .empty-space h1 {
+font-size: 35px;
 font-weight:700;
 line-height: 2.5;
-
 }
 
 .empty-space a {
@@ -161,43 +154,27 @@ line-height: 2.5;
   color: white;
 }
 
-.empty-space article {
+.empty-space a article {
   width:27%;
-}
+} 
+
 .empty-space hr {
-  height: 420px;
+  height: 429px;
   padding: 0;
   border: 1px solid white;
   margin-top: 0px;
-}
-.latest-articles-container-3{
-  width: 100%;
-    display: flex;
-    background: rgb(207, 204, 204);
-    margin-top: -73%;
-justify-content: space-evenly;
-flex:30%;
-height:492px;
 }
 
-.latest-articles-container-3 hr {
-  height: 492px;
-  padding: 0;
-  border: 1px solid white;
-  margin-top: 0px;
-}
-.article3 {
-  width:27%
-}
+
 
 .explore-features {
   background-color: rgb(112, 106, 106);
-  text-align: center;
-  padding-top: 120px;
-  height: 520px;
-  border-radius: 43px;
-  width: 100%;
-  border: 2px solid white;
+text-align: center;
+padding-top: 120px;
+height:520px;
+border-radius: 43px;
+width:100%;
+border: 2px solid white;
 }
 
 .explore-features h1 {
@@ -209,36 +186,36 @@ height:492px;
 }
 
 .latest {
-  width: 100%;
+  width:100%;
   background: rgb(168, 158, 158);
   height: 127px;
-  text-align: center;
-  padding: 32px;
-  border-bottom: 2px solid white
-}
+    text-align: center;
+    padding: 32px;
+    border-bottom: 2px solid white
+  }
 
-.handbook {
-  width: 100%;
-  background: rgb(97, 97, 97);
-  height: 550px;
-  text-align: center;
-  padding: 50px;
-  color: white;
-  border-bottom: 3px solid white;
-}
-
-.handbook h2 {
-  font-size: 43px;
-}
-
-.handbook p {
-  font-size: 21px;
-}
-
-
-.person {
-  margin-top: -23px;
-  background-color: #A89E9E;
-  height: 230px;
-  text-align: center;
-}
+  .handbook {
+    width:100%;
+    background: rgb(97, 97, 97);
+    height: 550px;
+      text-align: center;
+      padding: 50px;
+      color:white;
+      border-bottom: 3px solid white;
+     
+    }
+  
+  .handbook h2 {
+    font-size: 43px;
+  }
+  
+  .handbook p {
+    font-size: 21px;
+  }
+  
+  .person {
+    margin-top:-23px;
+    background-color:#A89E9E ;
+    height:230px;
+    text-align:center;
+  }
