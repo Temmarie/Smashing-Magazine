@@ -189,3 +189,56 @@ height:492px;
 .article3 {
   width:27%
 }
+
+.explore-features {
+  background-color: rgb(112, 106, 106);
+  text-align: center;
+  padding-top: 120px;
+  height: 520px;
+  border-radius: 43px;
+  width: 100%;
+  border: 2px solid white;
+}
+
+.explore-features h1 {
+  font-size: 40px;
+}
+
+.explore-features p {
+  font-size: 25px;
+}
+
+.latest {
+  width: 100%;
+  background: rgb(168, 158, 158);
+  height: 127px;
+  text-align: center;
+  padding: 32px;
+  border-bottom: 2px solid white
+}
+
+.handbook {
+  width: 100%;
+  background: rgb(97, 97, 97);
+  height: 550px;
+  text-align: center;
+  padding: 50px;
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.handbook h2 {
+  font-size: 43px;
+}
+
+.handbook p {
+  font-size: 21px;
+}
+
+
+.person {
+  margin-top: -23px;
+  background-color: #A89E9E;
+  height: 230px;
+  text-align: center;
+}
